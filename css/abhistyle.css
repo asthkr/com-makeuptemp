@@ -1,0 +1,63 @@
+/* banner */
+
+
+.slideimag{
+    width: 100%;
+   
+}
+.slideimag img{
+    width: 100%;
+}
+/* <!--(3) sub-banner video category --> */
+.onetxt h5{
+    font-weight: 800;
+    color: rgb(145, 13, 127);
+}
+.gropimag{
+    width: 100%;
+}
+.gropimag img{
+    width: 100%;
+    border-radius: 10px;
+}
+.makeup h5{
+    font-weight: 700;
+}
+/* <!--(4)--------------------------------------------------- sub-banner colum 2flex --> */
+.banerbackimag{
+    background-image: url("../images/back-1 1.png");
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    background-position: right;
+  background-size: cover;
+  position: relative;
+  }
+.rightnow{
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+.rightnow {
+    width: 334px;
+    padding: 16px;
+  }
+
+.rightnow h5{
+    font-weight: 700;
+    color: rgb(145, 13, 127);
+}
+.rightnow p{
+    font-size: 20px;
+    margin-top: 17px;
+}
+.banerbackimag2{
+    background-image: url("../images/back-1\ 1\(1\).png");
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    background-position: right;
+  background-size: cover;
+  position: relative;
+}
