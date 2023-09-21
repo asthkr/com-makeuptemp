@@ -81,30 +81,3 @@ button {
   width: 100%;
   object-fit: cover;
 }
-
-.mac-select {
-  position: relative;
-}
-.mac-select select {
-  -webkit-appearance: none !important;
-  -moz-appearance: none !important;
-  appearance: none !important;
-  border: none;
-  background: #fff;
-}
-.mac-select:after {
-  content: "";
-  z-index: 3;
-  top: 54%;
-  right: 8px;
-  border: solid transparent;
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-color: rgba(0, 0, 0, 0);
-  border-top-color: #000000;
-  border-width: 5px;
-  margin-left: -10px;
-  transform: translateY(-50%);
-}
