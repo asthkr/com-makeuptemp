@@ -1,4 +1,5 @@
 @import "../css/all.min.css";
+
 input,
 textarea,
 select,
@@ -17,6 +18,7 @@ h6 {
   text-decoration: none;
   outline: none;
 }
+
 a,
 a:hover,
 a:focus,
@@ -28,17 +30,21 @@ a:focus,
   text-decoration: none;
   outline: none;
 }
+
 button:focus {
   outline: none;
   border: none;
 }
+
 button:focus,
 input:focus {
   box-shadow: none !important;
 }
+
 button {
   cursor: pointer;
 }
+
 *,
 *:after,
 *:before {
@@ -50,25 +56,31 @@ button {
 .ls li {
   list-style: none;
 }
+
 .cur {
   cursor: pointer;
 }
+
 .po img {
   opacity: 0;
 }
+
 .vclip {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;
 }
+
 .maxw img {
   max-width: 100%;
 }
+
 .g-center {
   place-items: center;
   display: grid;
 }
+
 .fulw img {
   width: 100%;
 }
@@ -76,8 +88,13 @@ button {
 .rel {
   position: relative;
 }
+
 .ofit img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

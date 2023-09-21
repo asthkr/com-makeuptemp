@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
+<<<<<<< Updated upstream
 .top-selector {
 
     gap: 15px;
@@ -119,4 +122,8 @@
 .right-border {
     border: 1px solid black;
     padding: 10px;
+=======
+body {
+    font-family: "Montserrat", sans-serif;
+>>>>>>> Stashed changes
 }
