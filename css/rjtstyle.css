@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Montserrat", sans-serif;
+}
 
 .top-selector {
 
@@ -122,11 +125,5 @@
 .right-border {
     border: 1px solid black;
     padding: 10px;
-
-}
-
-body {
-    font-family: "Montserrat", sans-serif;
-
 
 }
