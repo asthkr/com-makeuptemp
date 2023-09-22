@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <!-- slick slider  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/custom-style.css">
+  <link rel="stylesheet" href="css/abhistyle.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/brands.min.css">
+  <link rel="stylesheet" href="css/duotone.min.css">
+  <link rel="stylesheet" href="css/pro.min.css">
+  <link rel="stylesheet" href="css/light.min.css">
+</head>
+
+<body>
+  <!--(2) ----------------------------------------------------banner slick slider  -->
+
+  <section class="banner d-block overflow-hidden pb-3">
+    <div class="container-fluid">
+      <div class="single-item">
+        <div class="slideimag">
+          <img src="images/Training-PRO-Homepage-Banner-Desktop 1.png" alt="image">
+        </div>
+        <div class="slideimag">
+          <img src="images/Training-PRO-Homepage-Banner-Desktop 1.png" alt="image">
+        </div>
+        <div class="slideimag">
+          <img src="images/Training-PRO-Homepage-Banner-Desktop 1.png" alt="image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END  banner slick slider  -->
+
+  <!--(3)--------------------------------------------------- sub-banner video category -->
+  <section class="categry d-block mb-4">
+    <div class="container-fluid">
+      <div class="onetxt text-center">
+        <h5>VIDEO CATEGORY</h5>
+      </div>
+      <!--------------------- grid image  -->
+      <div class="row mt-4 row-cols-2 row-cols-md-5">
+        <div class="col">
+          <div class="gropimag ">
+            <img src="images/p2 1.png" alt="image">
+          </div>
+          <div class="makeup text-center">
+            <h5>Makeup</h5>
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="gropimag">
+            <img src="images/p2 1(1).png" alt="image">
+          </div>
+          <div class="makeup text-center">
+            <h5>Extention Eylash</h5>
+          </div>
+        </div>
+        <div class="col">
+          <div class="gropimag">
+            <img src="images/p2 1(2).png" alt="image">
+          </div>
+          <div class="makeup text-center">
+            <h5>Hair Color</h5>
+          </div>
+        </div>
+        <div class="col">
+          <div class="gropimag">
+            <img src="images/p2 1(3).png" alt="image">
+          </div>
+          <div class="makeup text-center">
+            <h5>Chignon Hair</h5>
+          </div>
+        </div>
+        <div class="col">
+          <div class="gropimag">
+            <img src="images/p2 1(4).png" alt="image">
+          </div>
+          <div class="makeup text-center">
+            <h5>Nails Fake</h5>
+          </div>
+        </div>
+
+
+
+      </div>
+  </section>
+
+  <!--(4)--------------------------------------------------- sub-banner colum 2flex -->
+  <section class="need">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="banerbackimag">
+            <div class="rightnow">
+              <h5>Need Right Now</h5>
+              <p>Your curated roundup of this season's essentials.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-6">
+          <div class="banerbackimag2">
+            <div class="rightnow">
+              <h5>The Thread</h5>
+              <p>You go to destinstion for all things fashion, beauty and life style at nordstrom</p>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- jquery  -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".single-item").slick({
+        slidesToShow: 1,
+        dots: false,
+        // centerMode: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "0px",
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: "0px",
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+    });
+  </script>
+
+  <!-- bootstrap  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
