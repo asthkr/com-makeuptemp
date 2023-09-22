@@ -1,63 +1,174 @@
 /* banner */
-
-
-.slideimag{
-    width: 100%;
-   
+body{
+    overflow-x: hidden;
 }
-.slideimag img{
-    width: 100%;
+.slideimag {
+  width: 100%;
+}
+.slideimag img {
+  width: 100%;
 }
 /* <!--(3) sub-banner video category --> */
-.onetxt h5{
-    font-weight: 800;
-    color: rgb(145, 13, 127);
+.onetxt h5 {
+  font-weight: 800;
+  color: rgb(145, 13, 127);
 }
-.gropimag{
-    width: 100%;
+.gropimag {
+  width: 100%;
 }
-.gropimag img{
-    width: 100%;
-    border-radius: 10px;
+.gropimag img {
+  width: 100%;
+  border-radius: 10px;
 }
-.makeup h5{
-    font-weight: 700;
+.makeup h5 {
+  font-weight: 700;
 }
 /* <!--(4)--------------------------------------------------- sub-banner colum 2flex --> */
-.banerbackimag{
-    background-image: url("../images/back-1 1.png");
-    height: 300px;
-    width: 100%;
-    border-radius: 10px;
-    background-position: right;
+.banerbackimag {
+  background-image: url("../images/back-1 1.png");
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  background-position: right;
   background-size: cover;
   position: relative;
-  }
-.rightnow{
-    position: absolute;
-    top: 50%;
-    left: 32%;
-    transform: translate(-50%, -50%);
 }
 .rightnow {
-    width: 334px;
-    padding: 16px;
-  }
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  width: 334px;
+  padding: 16px;
+}
 
-.rightnow h5{
-    font-weight: 700;
-    color: rgb(145, 13, 127);
+.rightnow h5 {
+  font-weight: 700;
+  color: rgb(145, 13, 127);
 }
-.rightnow p{
-    font-size: 20px;
-    margin-top: 17px;
+.rightnow p {
+  font-size: 20px;
+  margin-top: 17px;
 }
-.banerbackimag2{
-    background-image: url("../images/back-1\ 1\(1\).png");
-    height: 300px;
-    width: 100%;
-    border-radius: 10px;
-    background-position: right;
+.banerbackimag2 {
+  background-image: url("../images/Group\ 88\(1\).png");
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  background-position: right;
   background-size: cover;
   position: relative;
 }
+.rightnow2 {
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  width: 334px;
+  padding: 16px;
+}
+
+.rightnow2 h5 {
+  font-weight: 700;
+  color: #ff69b4;
+}
+.rightnow2 p {
+  font-weight: 700;
+  color: white;
+}
+/* <!------------------------------------ secoond slick slider  --> */
+.vdocors{
+    overflow: hidden;
+}
+.couse h5{
+    font-weight: 800;
+  color: rgb(145, 13, 127);
+}
+
+.vdo-btn-line{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.show-button{
+    background-color: rgb(145, 13, 127);
+  border: none;
+  color: white;
+  padding: 2px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+ 
+}
+.line{
+    height: 2px;
+    width: 70%;
+    background-color: #ff69b4;
+}
+/* slick slider  */
+.box-text {
+    border: 2px solid #ff69b4;
+    width: 15%;
+    margin-top: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.imagg-one{
+    width: 100%;
+}
+.imagg-one img{
+    width: 100%;
+}
+.natrl-lok h5{
+    color: #ff69b4;
+    padding: 5px;
+}
+.nat-look-pera p{
+    padding: 5px;
+}
+.text-icon{
+    padding: 5px;
+}
+.icon-bordr{
+    border: 2px solid pink;
+    color:  rgb(145, 13, 127);
+    border-radius: 5px;
+    margin-left: 2px;
+}
+.fre-btn{
+    height: 100%;
+    text-align: center;
+    background-color: #ff69b4;
+    cursor: pointer;
+}
+
+.fre-btn h6{
+vertical-align: middle;
+  display: inline-block;
+}
+.btn-watch{
+    width: 100%;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.slick-next{
+    position: absolute;
+    right: 30px;
+    top: -13px;
+    z-index: 100;
+        background-color: rgb(145, 13, 127);
+        color:  rgb(145, 13, 127);
+    } 
+    .slick-prev{
+        position: absolute;
+      left: auto;
+      right:70px;
+        top: -13px;
+        z-index: 100;   
+            background-color:rgb(145, 13, 127);
+            color:  rgb(145, 13, 127);
+    }
+  
