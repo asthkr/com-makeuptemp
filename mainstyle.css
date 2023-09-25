@@ -104,8 +104,8 @@
 }
 .header .header-nav {
   background-color: #800080;
-  border-radius: 5px;
   padding: 6px;
+  border-radius: 5px 5px 0px 0px;
 }
 .header .header-nav .navbar {
   padding: 0;
@@ -220,4 +220,84 @@
 .footer .addrBox .ftr-address .telnum p span {
   font-weight: 400;
   font-size: 16px;
+}
+/* footer----------------------end */
+
+/* about-page----------------start */
+.pinkclrlgt {
+  width: 100%;
+  background: #ffc0cb;
+}
+.aboutus {
+  display: block;
+}
+.aboutus .herobnr-images {
+  width: 25%;
+}
+.aboutus .herobnr-images .image-box {
+  position: relative;
+}
+.image-box .text-circle {
+  display: flex;
+  width: 180px;
+  height: 180px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f0f0ff;
+  background: #800080;
+  border-radius: 50%;
+  position: absolute;
+  right: -60px;
+  top: 30%;
+  transform: translateY(-50%);
+}
+.text-circle .text-box {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 50px;
+  color: #fff;
+}
+
+.image-box .bdrbtn-imgwrap {
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 250px;
+  border-bottom-right-radius: 250px;
+  overflow: hidden;
+  border-left: 5px #ffc0cb solid;
+  border-right: 5px #ffc0cb solid;
+  border-bottom: 5px #ffc0cb solid;
+  padding-top: 220px;
+}
+.image-box .bdrbtn-imgwrap img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.aboutus .herobanner-text {
+  width: 75%;
+}
+.herobanner-text .text-box {
+  padding: 60px 150px;
+  display: block;
+  color: #800080;
+  border-bottom-right-radius: 7px;
+}
+.herobanner-text .text-box .subheading {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.herobanner-text .text-box .heading {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+.herobanner-text .text-box p {
+  font-size: 18px;
+  font-weight: 500;
+}
+/* about-page----------------------end */
+@media (max-width: 767px) {
 }
