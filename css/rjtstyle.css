@@ -60,7 +60,7 @@
     font-size: 16px;
 
     font-weight: 500;
-    line-height: 26px;
+    line-height: 28px;
 
 }
 
@@ -94,7 +94,7 @@
 }
 
 .border {
-    margin-top: 10px;
+    margin-top: 4px;
 }
 
 .blog-mid-text h2 {
@@ -148,7 +148,8 @@
 }
 
 .first-box {
-    position: relative;
+    display: block;
+
 }
 
 .first-box-text {
@@ -169,6 +170,7 @@
     height: 150px;
     border-radius: 100px;
     overflow: hidden;
+    position: relative;
 }
 
 .mid-box {
@@ -228,14 +230,18 @@
 
 .ads-star {
     position: absolute;
-    top: 89px;
-    right: 22px;
+    top: 124px;
+    right: 39px;
+}
+
+.ads-star1 {
+    position: relative;
 }
 
 .star-offer {
     position: absolute;
-    top: 30%;
-    right: 78px;
+    top: 37%;
+    right: 57px;
     color: white;
 }
 
@@ -260,5 +266,3 @@
 .button-add-2:active {
     scale: 2;
 }
-
-123
