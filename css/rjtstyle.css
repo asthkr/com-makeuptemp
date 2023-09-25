@@ -266,3 +266,112 @@
 .button-add-2:active {
     scale: 2;
 }
+
+/*------------------------contactus-----------------------------*/
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.conatact-us-text {
+
+    display: block;
+    background: #800080;
+    border-radius: 15px;
+
+
+    margin-top: -54%;
+}
+
+
+.conatact-us-text h1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    padding-top: 15px;
+}
+
+.contact-us-full {
+    padding: 15px 35px;
+    display: block;
+    width: 100%;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 4px;
+}
+
+.email i {
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.email p {
+    font-size: 18px;
+    color: white;
+}
+
+.conatact-us-text span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    padding: 14px;
+}
+
+.hour {
+    color: white;
+    font-size: 16px;
+}
+
+.cu-from {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.feedback-contact-us textarea {
+    width: 100%;
+    border: 2px solid #FF69B4;
+    border-radius: 5px;
+}
+
+.cu-from input {
+    border: 2px solid #FF69B4;
+}
+
+.cu-from a {
+    background: #800080;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 503;
+    width: 9%;
+    text-align: center;
+    margin-top: -7px;
+}
+
+.contact-us-from {
+    margin-top: 5%;
+    display: block;
+}
+
+.contact-us-from h1 {
+    font-size: 32px;
+    color: #800080;
+}
+
+.contact-us-from p {
+    font-size: 16px;
+    font-weight: 301;
+    line-height: 28px;
+    padding: 9px 0;
+}
