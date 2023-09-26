@@ -135,22 +135,29 @@ body {
   color: rgb(145, 13, 127);
   border-radius: 5px;
   margin-left: 2px;
+  padding: 3px;
 }
 .fre-btn {
   height: 100%;
   text-align: center;
-  background-color: #ff69b4;
+  background-color:#FFC0CB;
   cursor: pointer;
 }
 
 .fre-btn h6 {
   vertical-align: middle;
   display: inline-block;
+  padding: 4px;
 }
 .btn-watch {
   width: 100%;
-  background-color: aquamarine;
-  height: 100%;
+  background-color: #F0F0FF;
+  
+}
+.btn-watch2 {
+  width: 100%;
+  background-color:rgb(145, 13, 127);
+  color: white;
 }
 
 .slick-next {
@@ -175,6 +182,9 @@ body {
   font-weight: 700;
   color: #ff69b4;
 }
+.glass-text{
+  margin-top: 110px;
+}
 .vdo-txt h5 {
   text-align: center;
 }
@@ -183,38 +193,42 @@ body {
   position: relative;
 }
 
-.circle {
+.threecircle  .circle {
   background-image: url("../images/Ellipse\ 4.png");
   height: 200px;
   background-repeat: no-repeat;
-  margin-top: -30px;
+  position: absolute;
+  top: 20%;
+ left:200px;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  z-index: 10;
 }
-.circle2 {
+.threecircle .circle2 {
   background-image: url("../images/elips1.png");
   height: 500px;
   background-repeat: no-repeat;
-  margin-top: 30px;
-  
+  position: absolute;
+  top: 70%;
+  left:200px;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  z-index: 10;
 }
-.circle3 {
+.threecircle .circle3 {
   width: 15%;
   background-image: url("../images/Ellipse\ 5.png");
   height: 350px;
   background-repeat: no-repeat;
   position: absolute;
   top: 36%;
-  right: -100px;
+  right: -88px;
   transform: translate(-50%, -50%);
+  z-index: 10;
 }
 .everthing{
-  position: absolute;
-  border: 2px solid red;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  margin-top: 30px;
-  margin-bottom:40px;
+  position: inherit;
+  z-index: 20;
 }
 .glas-eys{
   width: 400px;
@@ -234,7 +248,42 @@ padding: 40px;
 .helmemt-text p{
   text-align: center;
 }
+/*--------------------- next-colmd6  */
+.colmain{
+  border: 2px solid #ff69b4 ;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 34px;
+}
+
+.video-box{
+  border-bottom: 2px solid #ff69b4;
+ 
+  align-items: center;
+}
+.vdo-imag{
+  width: 30%;
+}
+.vdo-imag img{
+  width: 100%;
+}
+.apply{
+  width: 66%;
+  padding: 20px;
+}
+
+.apply h5{
+  color:rgb(145, 13, 127);
+  font-weight: 600;
+}
+.apply p{
+  margin-top: 10px;
+}
+
+
+
 /* <!-------------------------------------- slikslider 3 --> */
+
 .single-item3 {
   padding: 30px;
 }
@@ -255,7 +304,7 @@ padding: 40px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-ul {
+.ulbar {
   list-style-type: none;
   margin-left: 218px;
   padding: 0;
@@ -271,10 +320,10 @@ ul {
   border-right: 2px solid rgb(145, 13, 127); 
   border-top: 2px solid rgb(145, 13, 127); 
 }
-li {
+.ulitem {
   display: flex;
 }
-li a {
+.ulitem a {
   color:rgb(145, 13, 127);
   display: block;
   text-align: center;
@@ -282,7 +331,7 @@ li a {
   text-decoration: none;
   font-weight: 600;
 }
-li a:hover {
+.ulitem a:hover {
   background-color: #ff69b4;
   border-radius: 4px;
   border-left: 2px solid rgb(145, 13, 127); 
@@ -364,7 +413,8 @@ margin-top: 20px;
   color: white;
   width: 100%;
   text-align: center;
-  background: rgb(145, 13, 127);
+
+  background: rgba(145, 13, 127,.8);
   padding: 15px;
   border-radius: 0px 0px 9px 9px;
 }
@@ -376,7 +426,7 @@ margin-top: 20px;
   color: white;
   width: 100%;
   text-align: center;
-  background: rgb(145, 13, 127);
+  background: rgba(145, 13, 127,.8);
   padding: 15px;
   border-radius: 0px 0px 9px 9px;
 }
@@ -387,20 +437,22 @@ margin-top: 20px;
 }
 .date h5{
 position: absolute;
-top: 0%;
-left: 80%;
+top: -3px;
+left: 79%;
 transform: translate(-50%,50%);
 background-color:gainsboro ;
 color:rgb(145, 13, 127);
 border-left:2px solid #ff69b4;
 border-bottom:2px solid #ff69b4;
+border-radius: 4px;
 }
 .last-icon{
   position: absolute;
-  top: 74%;
-  left: 22%;
+  top: 66%;
+  left: 27%;
 transform: translate(-50%,50%);
-background-color: white;
+
+border-radius: 5px;
 }
 .lastimage1{
   width: 100%;
@@ -408,11 +460,13 @@ background-color: white;
   
  
 }
+.icon-bordr{
+  background-color: white;
+}
 .lastimage1 img{
   width: 100%;
 }
 .last-pera p{
   text-align: center;
- 
-  
+  padding: 2px;
 }

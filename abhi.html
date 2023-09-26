@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
     integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+<link rel="stylesheet" href="mainstyle.css">
   <link rel="stylesheet" href="css/custom-style.css">
   <link rel="stylesheet" href="css/abhistyle.css">
   <link rel="stylesheet" href="css/all.min.css">
@@ -26,6 +26,129 @@
 </head>
 
 <body>
+  <header class="header">
+    <div class="container-fluid">
+      <div class="header-top">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="htop-contact">
+            <div
+              class="d-flex justify-content-start align-items-center gap-3"
+            >
+              <div class="mob-num">
+                <div class="vec-image">
+                  <img src="images/headerphone.png" alt="" />
+                </div>
+                <p>0210545444</p>
+              </div>
+              <span class="vl"></span>
+              <a href="contact.html"
+                ><div>
+                  <p>contact us</p>
+                </div></a
+              >
+              <span class="vl"></span>
+              <a href="about.html">
+                <div>
+                  <p>about us</p>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="htop-lang">
+            <select name="language" id="langselect" class="slctlang">
+              <option selected="selected" value="english">En</option>
+              <option value="hindi">Hin</option>
+              <option value="other">Ot</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="header-main">
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="index.html">
+            <div class="hmain-logo">
+              <img src="images/header logo.png" alt="logo" />
+            </div>
+          </a>
+          <div class="hmain-search">
+            <div class="s-wrap">
+              <div class="search">
+                <input type="text" class="searchTerm" placeholder="" />
+                <button type="submit" class="searchButton">
+                  <i class="fal fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="hmain-cart">
+            <a href="#" class="showprofile">
+              <div class="vectimg-holdr">
+                <img src="images/headerprofile.png" alt="v-img" />
+              </div>
+            </a>
+            <a href="#" class="showcart">
+              <div class="vectimg-holdr">
+                <img src="images/headercart.png" alt="v-img" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav">
+        <nav class="navbar navbar-expand-md">
+          <button
+            class="navbar-toggler x collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbartoggle-x"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbartoggle-x">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Brands </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Trade-ln Program </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Best Buy Outlet </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Druck </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Clearance Products </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sonderposten </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Popular Brands</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+  
   <!--(2) ----------------------------------------------------banner slick slider  -->
 
   <section class="banner d-block overflow-hidden pb-3">
@@ -179,7 +302,7 @@
             <div class="col-7 ps-0">
               <div class="batch-btn">
                 <button class="btn-watch">
-                  <h6>Watch Now</h6>
+                  Watch Now
                 </button>
               </div>
 
@@ -224,11 +347,11 @@
 
             </div>
             <div class="col-7 ps-0">
-              <div class="batch-btn">
-                <button class="btn-watch">
-                  <h6>Watch Now</h6>
+              
+                <button class="btn-watch2">
+                  Watch Now
                 </button>
-              </div>
+           
 
             </div>
 
@@ -271,11 +394,11 @@
 
             </div>
             <div class="col-7 ps-0">
-              <div class="batch-btn">
-                <button class="btn-watch">
-                  <h6>Watch Now</h6>
+             
+                <button class="btn-watch2">
+                  Watch Now
                 </button>
-              </div>
+             
 
             </div>
 
@@ -318,11 +441,11 @@
 
             </div>
             <div class="col-7 ps-0">
-              <div class="batch-btn">
-                <button class="btn-watch">
-                  <h6>Watch Now</h6>
+              
+                <button class="btn-watch2">
+                  Watch Now
                 </button>
-              </div>
+            
 
             </div>
 
@@ -365,11 +488,11 @@
 
             </div>
             <div class="col-7 ps-0">
-              <div class="batch-btn">
-                <button class="btn-watch">
-                  <h6>Watch Now</h6>
+              
+                <button class="btn-watch2">
+                  Watch Now
                 </button>
-              </div>
+             
 
             </div>
 
@@ -412,11 +535,11 @@
 
             </div>
             <div class="col-7 ps-0">
-              <div class="batch-btn">
-                <button class="btn-watch">
-                  <h6>Watch Now</h6>
+              
+                <button class="btn-watch2">
+                Watch Now
                 </button>
-              </div>
+              
 
             </div>
 
@@ -439,9 +562,9 @@
         <div class="circle3"></div>
 
         <!-- image section text  -->
-        <div class="everthing">
+        <div class="everthing d-flex">
 
-          <div class="col-md-6  border">
+          <div class="col-md-6 ">
             <div class="glass-text d-flex flex-column align-items-center ">
               <div class="glas-eys">
                 <img src="images/53465a6e86e8be75a3a3add91b745e04 1.png" alt="image">
@@ -455,8 +578,96 @@
                 electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
                 release of Letraset sheets containing </p>
             </div>
+           
           </div>
+
+
           <!-- next col-md-6    -->
+<div class="col-md-6">
+<div class="colmain d-flex flex-column">
+  <div class="video-box d-flex">
+    <div class="vdo-imag">
+      <img src="images/slickslider-3(1).png" alt="image">
+    </div>
+    <div class="apply">
+      <h5>How to Apply for makup for a natural look</h5>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        </p>
+        <div class="text-icon d-flex ">
+          <div class="icon-bordr">
+            <i class="fas fa-comment-alt-dots"></i>
+            20
+          </div>
+          <div class="icon-bordr">
+            <i class="fas fa-eye"></i>
+            22
+          </div>
+          <div class="icon-bordr">
+            <i class="fas fa-child"></i>
+            By Sare
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="video-box d-flex">
+      <div class="vdo-imag">
+        <img src="images/slickslider-3(2).png" alt="image">
+      </div>
+      <div class="apply">
+        <h5>How to Apply for makup for a natural look</h5>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+          </p>
+          <div class="text-icon d-flex ">
+            <div class="icon-bordr">
+              <i class="fas fa-comment-alt-dots"></i>
+              20
+            </div>
+            <div class="icon-bordr">
+              <i class="fas fa-eye"></i>
+              22
+            </div>
+            <div class="icon-bordr">
+              <i class="fas fa-child"></i>
+              By Sare
+            </div>
+          </div>
+      </div>
+      </div>
+
+      <div class="video-box d-flex">
+        <div class="vdo-imag">
+          <img src="images/slickslider-3(3).png" alt="image">
+        </div>
+        <div class="apply">
+          <h5>How to Apply for makup for a natural look</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+           </p>
+            <div class="text-icon d-flex ">
+              <div class="icon-bordr">
+                <i class="fas fa-comment-alt-dots"></i>
+                20
+              </div>
+              <div class="icon-bordr">
+                <i class="fas fa-eye"></i>
+                22
+              </div>
+              <div class="icon-bordr">
+                <i class="fas fa-child"></i>
+                By Sare
+              </div>
+            </div>
+        </div>
+        </div>
+
+  </div>
+</div>
+</div>
+
+
         </div>
 
 
@@ -534,13 +745,13 @@
         </div>
         <button class="show-button">Show all</button>
         <div class="navbar">
-          <ul>
-            <li><a class="active" href="#home">Celebrity</a></li>
-            <li><a href="#news">Hollywood</a></li>
-            <li><a href="#contact">Singers</a></li>
-            <li><a href="#about">Actress</a></li>
-            <li><a href="#about">Healthy</a></li>
-            <li><a href="#about">Bollywood</a></li>
+          <ul class="ulbar">
+            <li class="ulitem"><a class="active" href="#home">Celebrity</a></li>
+            <li class="ulitem"><a href="#news">Hollywood</a></li>
+            <li class="ulitem"><a href="#contact">Singers</a></li>
+            <li class="ulitem"><a href="#about">Actress</a></li>
+            <li class="ulitem"><a href="#about">Healthy</a></li>
+            <li class="ulitem"><a href="#about">Bollywood</a></li>
           </ul>
         </div>
       </div>
@@ -744,7 +955,91 @@
     </div>
   </section>
 
-
+<!-------------------------------------------------------------------------- footer  -->
+<footer class="footer mt-3">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="addrBox">
+          <div class="innerheading">
+            <a href="#"><h6>Service-Hotline</h6></a>
+          </div>
+          <div class="ftr-address">
+            <div class="telnum">
+              <p>
+                <span> Telefonische Beratung unter:</span> <br />
+                +49 (0) 771 1175 13169
+              </p>
+            </div>
+            <div class="ourtiming">
+              <p>
+                Montag - Freitag: <br />
+                08:00 - 12.00 Uhr <br />
+                13.00 - 17:00 Uhr
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="innerheading">
+              <a href="#"><h6>Shop</h6></a>
+            </div>
+            <div class="ftr-navigation">
+              <ul>
+                <li><a href="#">Games </a></li>
+                <li><a href="#">Hardware</a></li>
+                <li><a href="#">Merchandise</a></li>
+                <li><a href="#">Exclusives</a></li>
+                <li><a href="#">Online service </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="innerheading">
+              <a href="#"><h6>Informationen</h6></a>
+            </div>
+            <div class="ftr-navigation">
+              <ul>
+                <li><a href="#">Download area</a></li>
+                <li><a href="#">Imprint</a></li>
+                <li><a href="#">Data protection</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Shipment</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="innerheading">
+              <a href="#"><h6>Our Company</h6></a>
+            </div>
+            <div class="ftr-navigation border-0">
+              <ul>
+                <li class="ftr-list-link"><a href="#">About Us</a></li>
+                <li class="ftr-list-link"><a href="#">Contact</a></li>
+                <li class="ftr-list-link">
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li class="ftr-list-link"><a href="#">Terms of Use</a></li>
+                <li class="ftr-list-link">
+                  <div class="d-flex gap-3 fs-4">
+                    <a href="#"> <i class="fab fa-twitter"></i></a>
+                    <a href="#"> <i class="fab fa-facebook"></i></a>
+                    <a href="#"> <i class="fab fa-instagram"></i></a>
+                    <a href="#"> <i class="fab fa-youtube"></i></a>
+                    <a href="#"> <i class="fab fa-vimeo-v"></i></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 
