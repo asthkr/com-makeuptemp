@@ -250,6 +250,11 @@ padding: 40px;
   text-align: center;
 }
 /* <!------------------------------------------------navbar with image  --> */
+.mid-navbar{
+  background-color: gainsboro;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 ul {
   list-style-type: none;
   margin-left: 218px;
@@ -283,4 +288,131 @@ li a:hover {
   border-left: 2px solid rgb(145, 13, 127); 
   border-right: 2px solid rgb(145, 13, 127); 
   border-top: 2px solid rgb(145, 13, 127); 
+}
+/* grid image 1  */
+.grid-imge{
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.grid-imge img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+/*----------------- second */
+.grid-imge2{
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+.grid-imge2 img{
+  width: 100%;
+}
+/*----------------- third  */
+.grid-imge3{
+width: 100%;
+height: 530px;
+}
+.grid-imge3 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.industry h5{
+text-align: center;
+font-weight: 600;
+color:rgb(145, 13, 127); 
+margin-top: 20px;
+}
+.industry p{
+  text-align: center;
+  margin-top: 20px;
+  }
+  /* fourth  */
+  
+    .grid-imge4{
+      width: 100%;
+      position: relative;
+    
+  }
+  .grid-imge4 img{
+    width: 100%;
+  }
+  /* fifth  */
+.grid-imge5{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin-top: 20px;
+}
+.grid-imge5 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+
+
+.downimag-text{
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  width: 100%;
+  text-align: center;
+  background: rgb(145, 13, 127);
+  padding: 15px;
+  border-radius: 0px 0px 9px 9px;
+}
+.downimag-text2{
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  width: 100%;
+  text-align: center;
+  background: rgb(145, 13, 127);
+  padding: 15px;
+  border-radius: 0px 0px 9px 9px;
+}
+/*--------------------------lastslickslider  */
+.imag-potion{
+  position: relative;
+ 
+}
+.date h5{
+position: absolute;
+top: 0%;
+left: 80%;
+transform: translate(-50%,50%);
+background-color:gainsboro ;
+color:rgb(145, 13, 127);
+border-left:2px solid #ff69b4;
+border-bottom:2px solid #ff69b4;
+}
+.last-icon{
+  position: absolute;
+  top: 74%;
+  left: 22%;
+transform: translate(-50%,50%);
+background-color: white;
+}
+.lastimage1{
+  width: 100%;
+  padding: 10px;
+  
+ 
+}
+.lastimage1 img{
+  width: 100%;
+}
+.last-pera p{
+  text-align: center;
+ 
+  
 }
