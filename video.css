@@ -1,0 +1,133 @@
+.top-selector {
+
+    gap: 15px;
+    width: 100%;
+    background-color: lightgray;
+    padding: 10px;
+
+}
+
+.top-selector a {
+    color: #FF69B4;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.top-selector p {
+    color: #800080;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.top-selector i {
+    color: #800080;
+}
+
+
+.b-nav {
+
+    display: block;
+    width: 100%;
+}
+
+/*----------------------- course section  */
+.frame-border{
+    border: 2px solid #FF69B4;
+    padding: 10px;
+    margin-top: 10px;
+}
+.cate-txt{
+    padding: 10px;
+    border-bottom:2px solid #FF69B4;
+}
+.cate-txt h6{
+    font-weight: 700;
+    color:#800080;
+   
+}
+.vdo-time:hover{
+background-color:gainsboro;
+}
+.vdo-time{
+    padding: 10px;
+    cursor: pointer;
+}
+.vdo-icn p{
+    font-size: 14px;
+}
+.vdicn i{
+    color:#800080;
+}
+.utub-icn p{
+    font-size: 14px;
+}
+.crcle{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid #FF69B4;
+}
+/* ------------------cource four image  */
+.frame-border2{
+    border: 2px solid #FF69B4;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.frst-imag{
+    position: relative;
+width: 100%;
+margin-top: 10px;
+}
+.frst-imag img{
+    width: 100%;
+}
+.frstimg-txt{
+position: absolute;
+top: 93%;
+left: 50%;
+transform: translate(-50%,-50%);
+  width: 100%;
+  padding: 6px;
+  text-align: center;
+  border-radius: 0px 0px 9px 9px;
+  background: rgba(230, 230, 250, .6);
+}
+.frstimg-txt h6{
+    color: #800080;
+    font-weight: 600;
+}
+/* --------------------add banner  */
+.adimag{
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+.adimag img{
+    width: 100%;
+}
+.txtim{
+    position: absolute;
+    top: 34%;
+    left: 32%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 51%;
+    font-size: 30px;
+}
+.butn{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+}
+.buttonone{
+    padding: 14px 24px;
+  border-radius: 14px;
+  background-color: #800080;
+  color:white;
+  font-weight: 900;
+  border: none;
+  font-size: 14px;
+} 
+
