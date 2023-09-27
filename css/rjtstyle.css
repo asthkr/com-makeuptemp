@@ -613,4 +613,62 @@
 .artical-head {
     display: flex;
     align-items: center;
+<<<<<<< Updated upstream
+=======
+}
+
+.vdo-btn-line .line {
+    height: 2px;
+    width: 70%;
+    background-color: #ff69b4;
+}
+
+.vdo-btn-line h5 {
+
+
+    color: #800080;
+    font-family: Koulen;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+@media (max-width: 768px) {
+    .date h5 {
+        font-size: 12px;
+        margin-top: 9px;
+    }
+
+    .last-icon {
+        margin-top: -38PX;
+        margin-left: 9px;
+        font-size: 12px;
+        padding: 1px;
+    }
+
+    .header-main .hmain-logo {
+        margin-left: 1px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .header-main .hmain-logo img {
+        margin-left: -19px;
+    }
+
+    .hmain-search {
+        margin-left: -60px;
+    }
+
+    .detail-banner-text h1 {
+        line-height: 38px;
+    }
+
+    .detail-banner-text span {
+        line-height: 38px;
+    }
+
+>>>>>>> Stashed changes
 }
