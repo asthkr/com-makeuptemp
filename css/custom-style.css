@@ -29,6 +29,7 @@ a:focus,
   transition: all 0.4s ease 0s;
   text-decoration: none;
   outline: none;
+  color: inherit;
 }
 
 button:focus {
@@ -93,3 +94,4 @@ button {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}

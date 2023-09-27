@@ -613,8 +613,7 @@
 .artical-head {
     display: flex;
     align-items: center;
-<<<<<<< Updated upstream
-=======
+
 }
 
 .vdo-btn-line .line {
@@ -647,6 +646,7 @@
         padding: 1px;
     }
 
+
     .header-main .hmain-logo {
         margin-left: 1px;
     }
@@ -670,5 +670,5 @@
         line-height: 38px;
     }
 
->>>>>>> Stashed changes
+
 }
