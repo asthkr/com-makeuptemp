@@ -613,6 +613,7 @@
 .artical-head {
     display: flex;
     align-items: center;
+
 }
 
 .vdo-btn-line .line {
@@ -644,5 +645,30 @@
         font-size: 12px;
         padding: 1px;
     }
+
+
+    .header-main .hmain-logo {
+        margin-left: 1px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .header-main .hmain-logo img {
+        margin-left: -19px;
+    }
+
+    .hmain-search {
+        margin-left: -60px;
+    }
+
+    .detail-banner-text h1 {
+        line-height: 38px;
+    }
+
+    .detail-banner-text span {
+        line-height: 38px;
+    }
+
 
 }
