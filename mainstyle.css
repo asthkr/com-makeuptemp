@@ -486,10 +486,14 @@
 }
 
 .imagg-one {
-  width: 100%;
+  margin: 0 auto;
+  width: 255px;
+  height: 255px;
 }
 .imagg-one img {
   width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .natrl-lok h5 {
   color: #800080;
@@ -517,6 +521,7 @@ p.nat-look-pera {
   text-align: center;
   background-color: #ffc0cb;
   cursor: pointer;
+  color: #800080;
 }
 
 .btn-watch,
@@ -578,6 +583,115 @@ p.nat-look-pera {
 #border-pagination li a:hover:not(.active) {
   background: #ddd;
 }
+.pageaccordion {
+  border: 1px solid #ffc0cb;
+  border-radius: 10px;
+  padding: 10px;
+}
+.pageaccordion .accordion-heading {
+  border-bottom: 1px solid #ffc0cb;
+}
+.pageaccordion .accordion-heading h3 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #800080;
+  margin-bottom: 10px;
+}
+.accordion-button {
+  font-size: 20px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: inherit;
+  color: #010101;
+}
+.form-check-input:checked[type="checkbox"] {
+  --bs-form-check-bg-image: ;
+}
+.form-check-input:checked {
+  background-color: #ff69b4;
+  border-color: #800080;
+}
+.form-check label {
+  font-size: 14px;
+}
+.form-check {
+  margin: 12px 0;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+}
+.accordion-button::after {
+  font-family: "Font Awesome 5 pro";
+  content: "\f078";
+  display: inline-block;
+  font-weight: 600;
+  width: fit-content;
+  font-size: 10px;
+  height: fit-content;
+  background-image: none;
+  background-size: contain;
+  color: #800080;
+}
 /*  -video-----list ---------------end*/
+
 @media (max-width: 767px) {
+  .aboutus .herobnr-images {
+    width: 100%;
+  }
+
+  .image-box .text-circle {
+    width: 150px;
+    height: 150px;
+    right: 0px;
+    top: auto;
+    bottom: 0;
+  }
+  .text-circle .text-box {
+    font-size: 26px;
+  }
+
+  .image-box .bdrbtn-imgwrap {
+    border-radius: 50%;
+    border-top: 5px #ffc0cb solid;
+    padding-top: 0px;
+    margin: 20px auto;
+  }
+  .image-box .bdrbtn-imgwrap img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .aboutus .herobanner-text {
+    width: 100%;
+  }
+  .herobanner-text .text-box {
+    border-radius: 6px;
+    padding: 20px;
+  }
+
+  .herobanner-text .text-box .heading {
+    font-size: 24px;
+  }
+  .herobanner-text .text-box p {
+    font-size: 16px;
+  }
+  .descr-blog {
+    margin: 75px 0px;
+  }
+  .descr-blog .image-box {
+    position: relative;
+    z-index: 50;
+  }
+  .descr-blog .image-box .image-rounded {
+    margin: 0 auto;
+  }
+  .image-box .image-rounded img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .image-box .bgrounded-absract {
+    top: -60px;
+    right: 10px;
+  }
 }
