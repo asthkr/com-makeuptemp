@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail-content</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/brands.min.css" />
+    <link rel="stylesheet" href="css/duotone.min.css" />
+    <link rel="stylesheet" href="css/pro.min.css" />
+    <link rel="stylesheet" href="css/light.min.css" />
+    <link rel="stylesheet" href="css/custom-style.css" />
+
+    <link rel="stylesheet" href="css/rjtstyle.css" />
+    <link rel="stylesheet" href="mainstyle.css" />
+    <link rel="stylesheet" href="css/abhistyle.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-fluid">
+        <div class="header-top">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="htop-contact">
+              <div
+                class="d-flex justify-content-start align-items-center gap-3"
+              >
+                <div class="mob-num">
+                  <div class="vec-image">
+                    <img src="images/headerphone.png" alt="" />
+                  </div>
+                  <p>0210545444</p>
+                </div>
+                <span class="vl"></span>
+                <a href="contact-us.html"
+                  ><div>
+                    <p>contact us</p>
+                  </div></a
+                >
+                <span class="vl"></span>
+                <a href="about.html">
+                  <div>
+                    <p>about us</p>
+                  </div></a
+                >
+              </div>
+            </div>
+            <div class="htop-lang">
+              <select name="language" id="langselect" class="slctlang">
+                <option selected="selected" value="english">En</option>
+                <option value="hindi">Hin</option>
+                <option value="other">Ot</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="header-main">
+          <div class="d-flex justify-content-between align-items-center">
+            <a href="index.html">
+              <div class="hmain-logo">
+                <img src="images/header logo.png" alt="logo" />
+              </div>
+            </a>
+            <div class="hmain-search">
+              <div class="s-wrap">
+                <div class="search">
+                  <input type="text" class="searchTerm" placeholder="" />
+                  <button type="submit" class="searchButton">
+                    <i class="fal fa-search"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="hmain-cart">
+              <a href="#" class="showprofile">
+                <div class="vectimg-holdr">
+                  <img src="images/headerprofile.png" alt="v-img" />
+                </div>
+              </a>
+              <a href="#" class="showcart">
+                <div class="vectimg-holdr">
+                  <img src="images/headercart.png" alt="v-img" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="header-nav">
+          <nav class="navbar navbar-expand-md">
+            <button
+              class="navbar-toggler x collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbartoggle-x"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbartoggle-x">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="abhi.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Brands </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Trade-ln Program </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Best Buy Outlet </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Druck </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Clearance Products </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sonderposten </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Popular Brands</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="detail-banner">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="detail-banner-text">
+              <div class="detail-banner-text-date">
+                <p>By Caroline Kee</p>
+                <p>July 11, 2023, 9:27 PM</p>
+              </div>
+              <h1>
+                Eyelash extensions are more popular than ever. What are the
+                health risks?
+              </h1>
+              <span>
+                Eyelash extensions are recent beauty trend that's here to stay.
+                Doctors share the health risks and how to get longer lashes,
+                safely.
+              </span>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="d-block">
+                <div class="detail-banner-img fulw">
+                  <img src="images/detail-banner.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="b-nav">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="b-nav-full">
+              <div class="top-selector-detail d-flex gy-2 align-items-center">
+                <a href="">Home </a> <i class="fal fa-chevron-right"></i>
+                <a href="">Artical </a> <i class="fal fa-chevron-right"></i>
+                <a href="">Eyelash </a> <i class="fal fa-chevron-right"></i>
+                <a href="">Extensions </a>
+              </div>
+              <div class="b-nav-logo d-flex gap-2">
+                <img src="images/twitter.png" alt="" />
+                <img src="images/facebook.png" alt="" />
+                <img src="images/instagram.png" alt="" />
+                <img src="images/youtube.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="mid-detail d-block">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="mid-detail-text-full">
+            <div class="mid-detail-text">
+              <p>
+                Eyelash extensions have become an increasingly popular beauty
+                trend in recent years. On TikTok, the hashtag #lashextensions
+                has over 9.4 billion views and features countless videos of
+                people taking their lashes to new lengths.<br />
+                Unlike their predecessor false eyelashes, semi-permanent eyelash
+                extensions promise to make your lashes look fuller, longer and
+                darker for weeks — no daily reapplication or mascara necessary.
+              </p>
+            </div>
+            <div class="mid-detail-text">
+              <h1>
+                Yet, this trend prompts some questions: What are eyelash
+                extensions actually? How are they applied?
+              </h1>
+              <p>
+                Are there any health risks to the eye? We spoke to experts about
+                how eyelash extensions work, the possible risks, and how to get
+                lash extensions safely.
+              </p>
+            </div>
+            <div class="mid-detail-text">
+              <h1>How are eyelash extensions applied?</h1>
+              <p>
+                Eyelash extensions are tiny fibers resembling which are glued
+                one by one to individual natural eyelashes at the base of the
+                hair along the lash line, Dr. Ashley Brissette, spokesperson for
+                the American Academy of Ophthalmology and assistant professor at
+                Weill Cornell Medicine and New York Presbyterian Hospital, tells
+                TODAY.com.<br />
+                The extensions are glued using an eyelash extension adhesive,
+                Brissette explains, which contain various ingredients to hold
+                the lash in place. considers eyelash extensions and adhesives to
+                be cosmetic products, which means they must adhere to cosmetic
+                safety and labeling requirements.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="detail-mid-img">
+          <img src="images/detail-mid-img(1).png" alt="" />
+        </div>
+        <div class="mid-detail-text">
+          <h1>How long do eyelash extensions last?</h1>
+          <p>
+            Since eyelash extensions are glued to the natural eyelashes, they
+            typically last until the eyelashes fall out, which happens in cycles
+            like the hair on your head. "The lifecycle of eyelashes is about two
+            months, so if you're getting them glued to the base of the lash, on
+            average the (lash extensions) last about (six to eight weeks)," says
+            Brissette.
+          </p>
+        </div>
+        <div class="detail-mid-fut">
+          <div class="b-nav-logo d-flex gap-2">
+            <p>Share it:</p>
+            <a href="">
+              <img src="images/twitter.png" alt="" />
+            </a>
+            <a href="">
+              <img src="images/facebook.png" alt="" />
+            </a>
+            <a href="">
+              <img src="images/instagram.png" alt="" />
+            </a>
+            <a href="">
+              <img src="images/youtube.png" alt="" />
+            </a>
+          </div>
+          <p>By Caroline Kee</p>
+        </div>
+        <div class="row gy-3">
+          <div class="col-md-6">
+            <div class="detail-back-img fulw">
+              <img src="images/back-1.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="detail-back-img fulw">
+              <img src="images/back-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="deatil-comment">
+          <div class="comment-head">
+            <h1>Comment</h1>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="d-flex flex-column gap-3">
+          <div class="detail-comment-text">
+            <div class="detail-comment-img">
+              <img src="images/user-2.png" alt="" />
+            </div>
+            <p>
+              YOU from the moment you step through our doors. Each guest
+              completes a thorough consultation with their skilled lash stylist
+              to create their custom, personalized look! You can always expect
+              to be treated with meticulous care to ensure an exceptional,
+              luxurious experience—in fact, luxury is what we’re
+            </p>
+          </div>
+          <div class="detail-comment-text-1">
+            <div class="detail-comment-img">
+              <img src="images/user-admin-1.png" alt="" />
+            </div>
+            <p>
+              YOU from the moment you step through our doors. Each guest
+              completes a thorough consultation with their skilled lash stylist
+              to create their custom, personalized look! You can always expect
+              to be treated with meticulous care to ensure an exceptional,
+              luxurious experience—in fact, luxury is what we’re
+            </p>
+          </div>
+          <div class="detail-comment-text">
+            <div class="detail-comment-img">
+              <img src="images/user-2.png" alt="" />
+            </div>
+            <p>
+              YOU from the moment you step through our doors. Each guest
+              completes a thorough consultation with their skilled lash stylist
+              to create their custom, personalized look! You can always expect
+              to be treated with meticulous care to ensure an exceptional,
+              luxurious experience—in fact, luxury is what we’re
+            </p>
+          </div>
+          <div class="detail-comment-text">
+            <div class="detail-comment-img">
+              <img src="images/user-2.png" alt="" />
+            </div>
+            <p>
+              YOU from the moment you step through our doors. Each guest
+              completes a thorough consultation with their skilled lash stylist
+              to create their custom, personalized look! You can always expect
+              to be treated with meticulous care to ensure an exceptional,
+              luxurious experience—in fact, luxury is what we’re
+            </p>
+          </div>
+          <div class="detail-comment-text-1">
+            <div class="detail-comment-img">
+              <img src="images/user-admin-1.png" alt="" />
+            </div>
+            <p>
+              YOU from the moment you step through our doors. Each guest
+              completes a thorough consultation with their skilled lash stylist
+              to create their custom, personalized look! You can always expect
+              to be treated with meticulous care to ensure an exceptional,
+              luxurious experience—in fact, luxury is what we’re
+            </p>
+          </div>
+          <div class="detail-comment-text">
+            <div class="detail-comment-img">
+              <img src="images/user-2.png" alt="" />
+            </div>
+            <p>
+              YOU from the moment you step through our doors. Each guest
+              completes a thorough consultation with their skilled lash stylist
+              to create their custom, personalized look! You can always expect
+              to be treated with meticulous care to ensure an exceptional,
+              luxurious experience—in fact, luxury is what we’re
+            </p>
+          </div>
+        </div>
+        <div class="detail-form">
+          <div class="col-md-8 offset-md-2">
+            <div class="d-flex gap-4">
+              <input type="text" class="form-control" placeholder="Name" />
+              <input type="text" class="form-control" placeholder="Email" />
+            </div>
+            <div class="feedback-detail">
+              <textarea placeholder=" Feedback..." rows="5"></textarea>
+            </div>
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="artical d-block">
+      <div class="container-fluid">
+        <div class="vdo-btn-line mt-4">
+          <div class="couse">
+            <h5>ARTICLE</h5>
+          </div>
+          <button class="show-button">Show all</button>
+          <div class="line"></div>
+        </div>
+        <!------------------------------ slickslider last  -->
+        <div class="single-item4">
+          <!-- firstimage  -->
+          <div class="imag-potion">
+            <div class="lastimage1">
+              <img src="images/lastslide1.png" alt="image" />
+            </div>
+            <div class="date">
+              <h5>2023-02-01</h5>
+            </div>
+
+            <div class="last-icon d-flex">
+              <div class="icon-bordr">
+                <i class="fas fa-comment-alt-dots"></i>
+                20
+              </div>
+
+              <div class="icon-bordr">
+                <i class="fas fa-child"></i>
+                By Sare
+              </div>
+            </div>
+            <div class="last-pera">
+              <p>
+                You go to destinstion for all things fashion, beauty and life
+                style at nordstrom.You go to destinstion
+              </p>
+            </div>
+          </div>
+          <!---------------------------- second image  -->
+          <div class="imag-potion">
+            <div class="lastimage1">
+              <img src="images/lastslide2.png" alt="image" />
+            </div>
+            <div class="date">
+              <h5>2023-02-01</h5>
+            </div>
+
+            <div class="last-icon d-flex">
+              <div class="icon-bordr">
+                <i class="fas fa-comment-alt-dots"></i>
+                20
+              </div>
+
+              <div class="icon-bordr">
+                <i class="fas fa-child"></i>
+                By Sare
+              </div>
+            </div>
+            <div class="last-pera">
+              <p>
+                You go to destinstion for all things fashion, beauty and life
+                style at nordstrom.You go to destinstion
+              </p>
+            </div>
+          </div>
+          <!-- third  -->
+          <div class="imag-potion">
+            <div class="lastimage1">
+              <img src="images/lastslide3.png" alt="image" />
+            </div>
+            <div class="date">
+              <h5>2023-02-01</h5>
+            </div>
+
+            <div class="last-icon d-flex">
+              <div class="icon-bordr">
+                <i class="fas fa-comment-alt-dots"></i>
+                20
+              </div>
+
+              <div class="icon-bordr">
+                <i class="fas fa-child"></i>
+                By Sare
+              </div>
+            </div>
+            <div class="last-pera">
+              <p>
+                You go to destinstion for all things fashion, beauty and life
+                style at nordstrom.You go to destinstion
+              </p>
+            </div>
+          </div>
+          <!-- fourth -->
+          <div class="imag-potion">
+            <div class="lastimage1">
+              <img src="images/lastslide4.png" alt="image" />
+            </div>
+            <div class="date">
+              <h5>2023-02-01</h5>
+            </div>
+
+            <div class="last-icon d-flex">
+              <div class="icon-bordr">
+                <i class="fas fa-comment-alt-dots"></i>
+                20
+              </div>
+
+              <div class="icon-bordr">
+                <i class="fas fa-child"></i>
+                By Sare
+              </div>
+            </div>
+            <div class="last-pera">
+              <p>
+                You go to destinstion for all things fashion, beauty and life
+                style at nordstrom.You go to destinstion
+              </p>
+            </div>
+          </div>
+          <!-- fifth  -->
+          <div class="imag-potion">
+            <div class="lastimage1">
+              <img src="images/lastslide1.png" alt="image" />
+            </div>
+            <div class="date">
+              <h5>2023-02-01</h5>
+            </div>
+
+            <div class="last-icon d-flex">
+              <div class="icon-bordr">
+                <i class="fas fa-comment-alt-dots"></i>
+                20
+              </div>
+
+              <div class="icon-bordr">
+                <i class="fas fa-child"></i>
+                By Sare
+              </div>
+            </div>
+            <div class="last-pera">
+              <p>
+                You go to destinstion for all things fashion, beauty and life
+                style at nordstrom.You go to destinstion
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer mt-3">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="addrBox">
+              <div class="innerheading">
+                <a href="#"><h6>Service-Hotline</h6></a>
+              </div>
+              <div class="ftr-address">
+                <div class="telnum">
+                  <p>
+                    <span> Telefonische Beratung unter:</span> <br />
+                    +49 (0) 771 1175 13169
+                  </p>
+                </div>
+                <div class="ourtiming">
+                  <p>
+                    Montag - Freitag: <br />
+                    08:00 - 12.00 Uhr <br />
+                    13.00 - 17:00 Uhr
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="innerheading">
+                  <a href="#"><h6>Shop</h6></a>
+                </div>
+                <div class="ftr-navigation">
+                  <ul>
+                    <li><a href="#">Games </a></li>
+                    <li><a href="#">Hardware</a></li>
+                    <li><a href="#">Merchandise</a></li>
+                    <li><a href="#">Exclusives</a></li>
+                    <li><a href="#">Online service </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="innerheading">
+                  <a href="#"><h6>Informationen</h6></a>
+                </div>
+                <div class="ftr-navigation">
+                  <ul>
+                    <li><a href="#">Download area</a></li>
+                    <li><a href="#">Imprint</a></li>
+                    <li><a href="#">Data protection</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Shipment</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="innerheading">
+                  <a href="#"><h6>Our Company</h6></a>
+                </div>
+                <div class="ftr-navigation border-0">
+                  <ul>
+                    <li class="ftr-list-link">
+                      <a href="about.html">About Us</a>
+                    </li>
+                    <li class="ftr-list-link">
+                      <a href="contact-us.html">Contact</a>
+                    </li>
+                    <li class="ftr-list-link">
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="ftr-list-link"><a href="#">Terms of Use</a></li>
+                    <li class="ftr-list-link">
+                      <div class="d-flex gap-3 fs-4">
+                        <a href="#"> <i class="fab fa-twitter"></i></a>
+                        <a href="#"> <i class="fab fa-facebook"></i></a>
+                        <a href="#"> <i class="fab fa-instagram"></i></a>
+                        <a href="#"> <i class="fab fa-youtube"></i></a>
+                        <a href="#"> <i class="fab fa-vimeo-v"></i></a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".single-item4").slick({
+          slidesToShow: 4,
+          dots: false,
+          // centerMode: true,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          prevArrow:
+            "<button type='button' class='slick-prev'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+          nextArrow:
+            "<button type='button' class='slick-next'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: "0px",
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: "0px",
+                slidesToShow: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

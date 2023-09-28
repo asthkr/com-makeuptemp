@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>list-blog</title>
+    <title>Contact-us</title>
     <!-- bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
@@ -19,9 +19,123 @@
     <link rel="stylesheet" href="css/custom-style.css" />
 
     <link rel="stylesheet" href="css/rjtstyle.css" />
+    <link rel="stylesheet" href="mainstyle.css" />
   </head>
   <body>
     <!-------------banner--------------->
+    <header class="header">
+      <div class="container-fluid">
+        <div class="header-top">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="htop-contact">
+              <div
+                class="d-flex justify-content-start align-items-center gap-3"
+              >
+                <div class="mob-num">
+                  <div class="vec-image">
+                    <img src="images/headerphone.png" alt="" />
+                  </div>
+                  <p>0210545444</p>
+                </div>
+                <span class="vl"></span>
+                <div>
+                  <p>contact us</p>
+                </div>
+                <span class="vl"></span>
+                <div>
+                  <p>about us</p>
+                </div>
+              </div>
+            </div>
+            <div class="htop-lang">
+              <select name="language" id="langselect" class="slctlang">
+                <option selected="selected" value="english">En</option>
+                <option value="hindi">Hin</option>
+                <option value="other">Ot</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="header-main">
+          <div class="d-flex justify-content-between align-items-center">
+            <a href="index.html">
+              <div class="hmain-logo">
+                <img src="images/header logo.png" alt="logo" />
+              </div>
+            </a>
+            <div class="hmain-search">
+              <div class="s-wrap">
+                <div class="search">
+                  <input type="text" class="searchTerm" placeholder="" />
+                  <button type="submit" class="searchButton">
+                    <i class="fal fa-search"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="hmain-cart">
+              <a href="#" class="showprofile">
+                <div class="vectimg-holdr">
+                  <img src="images/headerprofile.png" alt="v-img" />
+                </div>
+              </a>
+              <a href="#" class="showcart">
+                <div class="vectimg-holdr">
+                  <img src="images/headercart.png" alt="v-img" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="header-nav">
+          <nav class="navbar navbar-expand-md">
+            <button
+              class="navbar-toggler x collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbartoggle-x"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbartoggle-x">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Brands </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Trade-ln Program </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Best Buy Outlet </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Druck </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Clearance Products </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sonderposten </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Popular Brands</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
     <section class="banner d-block overflow-hidden">
       <div class="banner-img d-block fulw">
         <div class="row">
@@ -135,6 +249,90 @@
         </div>
       </div>
     </section>
+    <footer class="footer mt-3">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="addrBox">
+              <div class="innerheading">
+                <a href="#"><h6>Service-Hotline</h6></a>
+              </div>
+              <div class="ftr-address">
+                <div class="telnum">
+                  <p>
+                    <span> Telefonische Beratung unter:</span> <br />
+                    +49 (0) 771 1175 13169
+                  </p>
+                </div>
+                <div class="ourtiming">
+                  <p>
+                    Montag - Freitag: <br />
+                    08:00 - 12.00 Uhr <br />
+                    13.00 - 17:00 Uhr
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="innerheading">
+                  <a href="#"><h6>Shop</h6></a>
+                </div>
+                <div class="ftr-navigation">
+                  <ul>
+                    <li><a href="#">Games </a></li>
+                    <li><a href="#">Hardware</a></li>
+                    <li><a href="#">Merchandise</a></li>
+                    <li><a href="#">Exclusives</a></li>
+                    <li><a href="#">Online service </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="innerheading">
+                  <a href="#"><h6>Informationen</h6></a>
+                </div>
+                <div class="ftr-navigation">
+                  <ul>
+                    <li><a href="#">Download area</a></li>
+                    <li><a href="#">Imprint</a></li>
+                    <li><a href="#">Data protection</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Shipment</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="innerheading">
+                  <a href="#"><h6>Our Company</h6></a>
+                </div>
+                <div class="ftr-navigation border-0">
+                  <ul>
+                    <li class="ftr-list-link"><a href="#">About IJS</a></li>
+                    <li class="ftr-list-link"><a href="#">Contact</a></li>
+                    <li class="ftr-list-link">
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                    <li class="ftr-list-link"><a href="#">Terms of Use</a></li>
+                    <li class="ftr-list-link">
+                      <div class="d-flex gap-3 fs-4">
+                        <a href="#"> <i class="fab fa-twitter"></i></a>
+                        <a href="#"> <i class="fab fa-facebook"></i></a>
+                        <a href="#"> <i class="fab fa-instagram"></i></a>
+                        <a href="#"> <i class="fab fa-youtube"></i></a>
+                        <a href="#"> <i class="fab fa-vimeo-v"></i></a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
